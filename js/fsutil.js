@@ -114,7 +114,7 @@ function onLoadPage(page){
 }
 function onUnLoadPage(page){
 }
-/*
+
 function submitSearch(aform) {
 	if($currentApplication) $currentApplication.submitSearch(aform);
 }
@@ -133,7 +133,7 @@ function submitOrder(fsParams) {
 function submitDelete(fsParams) {
 	if($currentApplication) $currentApplication.submitDelete(fsParams);
 }
-*/
+
 function open_page(appid,params) {
 	//load_page(pid);
 	if($previousApplication) destroyApplication($previousApplication);
